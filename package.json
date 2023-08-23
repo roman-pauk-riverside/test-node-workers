@@ -1,0 +1,16 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/usingChildProcess/index.js",
+    "test-worker": "node src/usingWorkerThreads/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@riversidefm/canvas-renderer-node": "^2.0.0",
+    "workerpool": "^6.4.2"
+  }
+}
